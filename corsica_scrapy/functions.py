@@ -50,7 +50,7 @@ class extractor:
         select.click()
 
     def close_browser(self):
-        self.driver.close()
+        # self.driver.close()
         self.driver.quit()
 
     @classmethod
