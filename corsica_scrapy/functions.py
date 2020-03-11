@@ -58,5 +58,5 @@ class extractor:
         import pandas as pd
 
         df = pd.read_clipboard(sep=",")
-        path = "C:/Users/Aram Kaplanian/nhl_notebooks/NHL_analysis/"
+        path = "C:/Users/AramK/nhl_notebooks/NHL_analysis/"
         df = df.to_csv(path + "team_data.csv", index=False)
